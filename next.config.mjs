@@ -1,7 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+    "output": "export",
   images: {
-    domains: ["book.rpclimo.com"], // Add the domain hosting the image
+    domains: ["book.rpclimo.com"], 
   },
 };
 
