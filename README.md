@@ -25,8 +25,6 @@ This project demonstrates the use of **Next.js**, **Tailwind CSS**, and **Redux*
 4. **Frequently Asked Questions (FAQ)**
    - Interactive dropdowns that allow users to view detailed answers for each question. Only one answer is visible at a time.
 
-5. **Unique Section: Client Testimonials**
-   - A creative section featuring client feedback and ratings to enhance user engagement.
 
 6. **Login Page**
    - A responsive login form with:
@@ -43,34 +41,6 @@ This project demonstrates the use of **Next.js**, **Tailwind CSS**, and **Redux*
 - **Redux**: For managing the application's state.
 - **React-Multi-Carousel**: For fleet section carousels.
 - **Axios**: For API calls.
-
----
-
-## Installation & Setup
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/rpc-limo-service.git
-   cd rpc-limo-service
-   ```
-
-2. Install dependencies:
-   ```bash
-   npm install
-   ```
-
-3. Start the development server:
-   ```bash
-   npm run dev
-   ```
-   The application will be available at `http://localhost:3000`.
-
-4. Build for production:
-   ```bash
-   npm run build
-   npm start
-   ```
-
-5. Deploy the project on a platform like Vercel or Netlify.
 
 ---
 
@@ -112,32 +82,41 @@ This project demonstrates the use of **Next.js**, **Tailwind CSS**, and **Redux*
 
 ## Deployment
 The project is deployed on Vercel. You can view the live application here:
-[Live Demo](https://rpc-limo-service.vercel.app)
+[Live Demo](https://zsi-ai-eight.vercel.app)
 
 ---
 
 ## Folder Structure
 ```
+src
+├── app
+│   ├── favicon.ico
+│   ├── globals.css
+│   ├── layout.js
+│   ├── page.js
+│   └── login
+│       └── page.jsx
 ├── components
-│   ├── Header.js
-│   ├── Footer.js
-│   ├── FAQ.js
-│   ├── FleetCarousel.js
-│   └── LoginForm.js
-├── pages
-│   ├── index.js
-│   ├── login.js
-│   └── api
-│       └── auth.js
+│   ├── DiscoverFleet
+│   │   ├── DiscoverFleet.jsx
+│   │   └── FleetTab.jsx
+│   ├── FrequentlyAskedQuestions
+│   │   └── FrequentlyAskedQuestions.jsx
+│   └── QuickPriceCheck
+│       └── QuickPriceCheck.jsx
+├── hooks
+│   └── useTitle.jsx
+├── provider
+│   └── ReduxProvider.js
 ├── redux
-│   ├── store.js
-│   └── authSlice.js
-├── styles
-│   └── globals.css
-├── public
-│   └── images
-├── package.json
-└── README.md
+│   ├── authSlice.js
+│   └── store.js
+├── shared
+│   ├── Footer
+│   │   └── Footer.jsx
+│   └── navbar
+│       └── Navbar.jsx
+
 ```
 
 ---
