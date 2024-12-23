@@ -7,7 +7,7 @@ const Navbar = () => {
     const router  = useRouter();
   return (
     <div className="w-full fixed top-0 py-3 px-4 flex items-center bg-yellow-600 justify-between shadow-md z-50">
-      <div className="2xl:max-w-[1350px] mx-auto w-full flex justify-between items-center gap-20">
+      <div className="2xl:max-w-[1350px] w-full mx-auto  flex justify-between items-center gap-20">
       
   
 
