@@ -1,13 +1,12 @@
 "use client";
 import Image from "next/image";
-import { useRouter } from "next/navigation";
 import facebook from "../../../public/images/footer/facebook.png";
 import insta from "../../../public/images/footer/insta.png";
 import twitter from "../../../public/images/footer/twitter.png";
 import Link from "next/link";
 
 const Footer = () => {
-  const router = useRouter();
+
 
   return (
     <div className="">
@@ -15,7 +14,6 @@ const Footer = () => {
         <div className="2xl:max-w-[1350px] w-full mx-auto px-6 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 lg:mt-12 gap-8">
           <div className="flex flex-col gap-6 mx-auto lg:col-span-2">
             <Image
-              onClick={() => router.push("/")}
               src="https://book.rpclimo.com/images/logo.png"
               loading="lazy"
               className="cursor-pointer w-52"

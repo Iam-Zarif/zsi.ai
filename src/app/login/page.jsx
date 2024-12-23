@@ -81,11 +81,12 @@ const Login = () => {
   };
 
   return (
-    <div className="min-h-screen grid grid-cols-1 lg:grid-cols-5">
+    <div className="min-h-screen lg:mt-0 mt-24 grid grid-cols-1 lg:grid-cols-5">
       <div className="relative col-span-1 lg:col-span-3 w-full h-full">
         <Image
           src={loginImage}
           alt="Login Background"
+          className="h-full w-full"
           layout="fill"
           objectFit="cover"
           priority
@@ -97,7 +98,7 @@ const Login = () => {
         </div>
       </div>
 
-      <div className="col-span-2 flex items-center justify-center bg-gray-100 p-6">
+      <div className="col-span-2 flex lg:items-center justify-center bg-gray-100 p-6">
         <div className="max-w-sm w-full">
           <h2 className="text-3xl font-bold text-gray-800 mb-6">Sign In</h2>
           <form onSubmit={handleSubmit}>
