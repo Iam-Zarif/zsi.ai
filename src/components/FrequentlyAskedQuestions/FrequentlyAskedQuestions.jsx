@@ -2,7 +2,8 @@
 import { useState } from "react";
 
 const FrequentlyAskedQuestions = () => {
-  const [activeIndex, setActiveIndex] = useState(null);
+  // Set the initial active index to 0
+  const [activeIndex, setActiveIndex] = useState(0);
 
   const faqs = [
     {
@@ -49,7 +50,7 @@ const FrequentlyAskedQuestions = () => {
   return (
     <div className="2xl:max-w-[1350px] w-full mx-auto px-4">
       <div>
-        <p className="text-4xl font-serif ">
+        <p className="text-4xl font-serif">
           Frequently Asked Questions for RPC Limo Service
         </p>
         <div className="flex mt-10 flex-col items-start space-y-4">
