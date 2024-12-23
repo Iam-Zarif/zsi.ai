@@ -110,14 +110,6 @@ This project demonstrates the use of **Next.js**, **Tailwind CSS**, and **Redux*
 
 ---
 
-## Best Practices Followed
-- Responsive design for all screen sizes.
-- Clean and maintainable code with comments for better readability.
-- Comprehensive error handling and form validation.
-- Creative and visually appealing UI.
-
----
-
 ## Deployment
 The project is deployed on Vercel. You can view the live application here:
 [Live Demo](https://rpc-limo-service.vercel.app)
@@ -150,21 +142,11 @@ The project is deployed on Vercel. You can view the live application here:
 
 ---
 
-## Future Enhancements
-1. Add a booking system with integrated payment gateways.
-2. Implement user profile management.
-3. Enhance the Fleet section with 3D models or AR/VR capabilities.
-4. Introduce multi-language support for international users.
-
----
 
 ## Author
-Developed by **Your Name**
+Developed by **MOSTOFA FATIN**
 
-For any questions or feedback, please feel free to reach out to [your.email@example.com](mailto:your.email@example.com).
+For any questions or feedback, please feel free to reach out to [mostofafatin.developer@gmail.com](mailto:mostofafatin.developer@gmail.com).
 
----
 
-## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
