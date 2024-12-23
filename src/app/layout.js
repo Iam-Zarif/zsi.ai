@@ -21,12 +21,12 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <ReduxProvider >
+    <ReduxProvider>
       <html lang="en">
         <body className={`${geistSans.variable} ${geistMono.variable}`}>
           <Navbar />
-          {children}
-          <Footer/>
+          <div className="mt-28">{children}</div>
+          <Footer />
         </body>
       </html>
     </ReduxProvider>
