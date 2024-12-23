@@ -5,8 +5,10 @@ import axios from "axios";
 import Image from "next/image";
 import loginImage from "../../../public/images/auth/login/rpcLimoLogin.png";
 import { loginFailure, loginSuccess } from "@/redux/authSlice";
+import Title from "@/hooks/useTitle";
 
 const Login = () => {
+  Title("Login");
   const dispatch = useDispatch();
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
