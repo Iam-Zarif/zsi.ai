@@ -2,11 +2,12 @@
   "name": "zsi-test",
   "version": "0.1.0",
   "private": true,
-  "scripts": {
-    "dev": "nodemon server.js",
+ "scripts": {
+    "dev": "next dev",
     "build": "next build",
-    "start": "NODE_ENV=production node server.js",
-    "lint": "next lint"
+    "start": "next start",
+    "lint": "next lint",
+    "export": "next export"
   },
   "dependencies": {
     "@reduxjs/toolkit": "^2.5.0",

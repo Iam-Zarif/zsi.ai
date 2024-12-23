@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
-  output: "export",
+   images: { unoptimized: true },
   images: {
     domains: ["book.rpclimo.com", "rpclimo.com"],
   },
